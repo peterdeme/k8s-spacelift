@@ -9,8 +9,8 @@ spec:
   replicas: 2 # tells deployment to run 2 pods matching the template
   template:
     metadata:
-      labels:
-        app: nginx
+      labels: []
+        #app: nginx
     spec:
       containers:
       - name: nginx
